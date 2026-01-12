@@ -1,0 +1,28 @@
+# Python compilation
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (NEVER commit this)
+.env
+.env.prod
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# Docker
+docker-compose.override.yml
+
+# Database volumes (if mapped locally)
+pg_data/
+redis_data/
+
+# Logs
+*.log
