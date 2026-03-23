@@ -1,5 +1,5 @@
 API_V1_PREFIX = "/api/v1"
-BINANCE_BASE_URL = "wss://fstream.binance.com"
+BINANCE_BASE_URL = "wss://fstream.binance.com/ws/btcusdt@kline_1m"
 
 DEFAULT_PAGE_SIZE = 10
 MAX_PAGE_SIZE = 50
